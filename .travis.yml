@@ -13,4 +13,4 @@ services:
 script:
 - docker login -u michielvh -p school
 - mvn clean package docker:build
-- docker push michielvh/darepo:tag1
+- docker push michielvh/darepo
