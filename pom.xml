@@ -65,9 +65,9 @@
 			<plugin>
       <groupId>com.spotify</groupId>
       <artifactId>docker-maven-plugin</artifactId>
-      <version>0.0.21</version>
+      <version>1.0.0</version>
       <configuration>
-        <imageName>example</imageName>
+        <imageName>example2</imageName>
         <dockerDirectory>${project.build.directory}/docker</dockerDirectory>
         <resources>
            <resource>
