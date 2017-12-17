@@ -67,7 +67,7 @@
       <artifactId>docker-maven-plugin</artifactId>
       <version>1.0.0</version>
       <configuration>
-        <imageName>example24</imageName>
+        <imageName>michielvh/darepo:latest</imageName>
         <dockerDirectory>${basedir}/src/main/docker/</dockerDirectory>
         <resources>
            <resource>
