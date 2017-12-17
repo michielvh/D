@@ -67,8 +67,8 @@
       <artifactId>docker-maven-plugin</artifactId>
       <version>1.0.0</version>
       <configuration>
-        <imageName>example2</imageName>
-        <dockerDirectory>${project.build.directory}/docker</dockerDirectory>
+        <imageName>example24</imageName>
+        <dockerDirectory>${basedir}/target/dockerfile</dockerDirectory>
         <resources>
            <resource>
              <targetPath>/</targetPath>
