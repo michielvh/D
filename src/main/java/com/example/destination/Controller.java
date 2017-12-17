@@ -23,7 +23,7 @@ private DestinationService service;
 @Autowired
 private DiscoveryClient discoveryClient;
 
- 
+  
 
 @RequestMapping("/destination")
 public List<Destination> getAll(){
